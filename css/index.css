@@ -82,6 +82,12 @@ p {
     margin: 5% 0%;
 }
 
+.navbar a {
+    color: black;
+    text-decoration-line: none;
+    margin-right: 3%;
+}
+
 /* ===========================*/
 
 .top-content {
