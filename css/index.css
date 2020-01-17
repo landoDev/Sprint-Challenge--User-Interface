@@ -176,10 +176,12 @@ p {
     padding-right: 0;
 }
 /* ====== About Page Styling ===== */
+
 .about-top {
     display: flex;
     justify-content: space-between;
 }
+
 .about-top-left {
    display: flex;
    flex-direction: column;
@@ -198,12 +200,20 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-top img {
+    margin-bottom: 5%;
+}
+
 button {
     padding: 2%;
     width: 25%;
     margin-top: 5%;
     border: 2px solid black; 
     border-radius: 10px;
+}
+
+button:hover {
+    border: 4px inset black;
 }
 
 .about-bottom{
@@ -225,6 +235,10 @@ button {
     padding-bottom: 3%;
     width: 45%;
     border-bottom: 1px dashed black;
+}
+
+.about-bottom img {
+    margin-bottom: 5%;
 }
 /* ===============================*/
 /* ====== Footer ====== */
