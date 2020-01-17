@@ -138,29 +138,28 @@ p {
     justify-content: center;
 }
 /* ===== Box Colors ====== */
-.middle-content .boxes .box {
+.container section  #box1{ 
     background-color: teal;
 }
-.middle-content .boxes .box #box2 {
+.container section #box2 {
     background-color: gold;
-
 }
-/* .container section #box3 {
-    background-color: teal;
+.container section #box3 {
+    background-color: cadetblue;
 }.container section #box4 {
-    background-color: teal;
+    background-color: coral;
 }.container section #box5 {
-    background-color: teal;
+    background-color: crimson;
 }.container section #box6 {
-    background-color: teal;
+    background-color: forestgreen;
 }.container section #box7 {
-    background-color: teal;
+    background-color: darkorchid;
 }.container section #box8 {
-    background-color: teal;
+    background-color: hotpink;
 }.container section #box9 {
-    background-color: teal;
-}.container section #box1 {
-    background-color: teal;
+    background-color: indigo;
+}.container section #box10 {
+    background-color: dodgerblue;
 }
 /* ======================= */
 .bottom-content {
