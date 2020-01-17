@@ -67,8 +67,22 @@ p {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 800px;
     margin: 0 auto;
+}
+
+/* ===== Navbar Styling ===== */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0%;
+}
+.navbar nav {
+    display: flex;
+    align-content: flex-start;
 }
 
 .top-content {
