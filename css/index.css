@@ -176,7 +176,56 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* ====== About Page Styling ===== */
+.about-top {
+    display: flex;
+    justify-content: space-between;
+}
+.about-top-left {
+   display: flex;
+   flex-direction: column;
+   width: 45%;
+   margin: 3% 0%;
+   padding-bottom: 3%;
+   border-bottom: 1px dashed black;
+}
 
+.about-top-right{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 3% 0%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    padding: 2%;
+    width: 25%;
+    margin-top: 5%;
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.about-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.about-bottom-left {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0%;
+    padding-bottom: 3%;
+    width: 45%;
+}
+.about-bottom-right {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0%;
+    padding-bottom: 3%;
+    width: 45%;
+}
+/* ===============================*/
 footer {
     width: 100%;
     background: black;
