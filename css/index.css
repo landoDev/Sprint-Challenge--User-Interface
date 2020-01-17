@@ -67,9 +67,28 @@ p {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 800px;
     margin: 0 auto;
 }
+
+/* ===== Navbar Styling ===== */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 5% 0%;
+}
+
+.navbar a {
+    color: black;
+    text-decoration-line: none;
+    margin-right: 3%;
+}
+
+/* ===========================*/
 
 .top-content {
     display: flex;
@@ -81,6 +100,13 @@ p {
 
 .top-content .text-container {
     width: 48%;
+    margin-top: 3%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content .text-container-about {
+    margin-top: 3%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -111,7 +137,31 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+/* ===== Box Colors ====== */
+.container section  #box1{ 
+    background-color: teal;
+}
+.container section #box2 {
+    background-color: gold;
+}
+.container section #box3 {
+    background-color: cadetblue;
+}.container section #box4 {
+    background-color: coral;
+}.container section #box5 {
+    background-color: crimson;
+}.container section #box6 {
+    background-color: forestgreen;
+}.container section #box7 {
+    background-color: darkorchid;
+}.container section #box8 {
+    background-color: hotpink;
+}.container section #box9 {
+    background-color: indigo;
+}.container section #box10 {
+    background-color: dodgerblue;
+}
+/* ======================= */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +175,81 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* ====== About Page Styling ===== */
 
+.about-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-top-left {
+   display: flex;
+   flex-direction: column;
+   width: 45%;
+   margin: 3% 0%;
+   padding-bottom: 3%;
+   border-bottom: 1px dashed black;
+}
+
+.about-top-right{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 3% 0%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-top img {
+    margin-bottom: 5%;
+}
+
+button {
+    padding: 2%;
+    width: 25%;
+    margin-top: 5%;
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+button:hover {
+    border: 4px inset black;
+}
+
+.about-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.about-bottom-left {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0%;
+    padding-bottom: 3%;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+.about-bottom-right {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0%;
+    padding-bottom: 3%;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.about-bottom img {
+    margin-bottom: 5%;
+}
+/* ===============================*/
+/* ====== Footer ====== */
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
 footer {
     width: 100%;
     background: black;
