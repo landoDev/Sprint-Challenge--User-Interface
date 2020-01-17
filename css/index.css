@@ -217,6 +217,7 @@ button {
     margin: 3% 0%;
     padding-bottom: 3%;
     width: 45%;
+    border-bottom: 1px dashed black;
 }
 .about-bottom-right {
     display: flex;
@@ -224,8 +225,18 @@ button {
     margin: 3% 0%;
     padding-bottom: 3%;
     width: 45%;
+    border-bottom: 1px dashed black;
 }
 /* ===============================*/
+/* ====== Footer ====== */
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
 footer {
     width: 100%;
     background: black;
