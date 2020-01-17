@@ -105,6 +105,12 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container-about {
+    margin-top: 3%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -131,7 +137,32 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* ===== Box Colors ====== */
+.middle-content .boxes .box {
+    background-color: teal;
+}
+.middle-content .boxes .box #box2 {
+    background-color: gold;
 
+}
+/* .container section #box3 {
+    background-color: teal;
+}.container section #box4 {
+    background-color: teal;
+}.container section #box5 {
+    background-color: teal;
+}.container section #box6 {
+    background-color: teal;
+}.container section #box7 {
+    background-color: teal;
+}.container section #box8 {
+    background-color: teal;
+}.container section #box9 {
+    background-color: teal;
+}.container section #box1 {
+    background-color: teal;
+}
+/* ======================= */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
