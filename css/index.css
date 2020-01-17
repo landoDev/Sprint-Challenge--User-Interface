@@ -77,13 +77,12 @@ p {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    margin: 2% 0%;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 5% 0%;
 }
-.navbar nav {
-    display: flex;
-    align-content: flex-start;
-}
+
+/* ===========================*/
 
 .top-content {
     display: flex;
@@ -95,6 +94,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
+    margin-top: 3%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
